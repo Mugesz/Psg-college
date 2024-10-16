@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 1300px;
+  width: 1400px;
   margin: 0px auto;
 }
 
@@ -65,6 +65,24 @@ body {
   width: 280px;
   margin-left: 6vw;
 }
+
+.log {
+	height: 112px;
+	width: 280px;
+  }
+
+  .logins {
+	padding:10px 20px;
+	background-color: #0055a4;
+	border-radius: 12px;
+	color: #fff;
+  }
+
+  .logins:hover {
+	background-color: transparent;
+	color: black;
+	border:3px solid  #0055a4;
+  }
 
 /**********MENU SECTION**********/
 nav {
