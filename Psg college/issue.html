@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Issue Tracker</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!-- Logo and Navigation -->
+    <div class=" header">
+      <img src="Psg lgo 2.png" class="logo" />
+      <nav class="navd">
+        <a class="nav-wrap"  href="dashboard.html">Home</a>
+        <a class="nav-wrap" href="#">About Us</a>
+        <a class="nav-wrap" href="#">Events</a>
+        <a class="nav-wrap" href="#">Gallery</a>
+        <a class="nav-wrap" href="Login.html">Log In</a>
+        <a class="nav-wrap" href="#">Contact Us</a>
+      </nav>
+    </div>
+
+    <!-- Issue Form Section -->
+    <div class="form-section">
+      <h2>Report an Issue</h2>
+      <form id="issueForm">
+        <label style="padding-right: 350px">Name:</label><br />
+        <input type="text" placeholder="Enter your Name" required /><br />
+
+        <label style="padding-right: 350px">Email:</label><br />
+        <input type="email" placeholder="Enter your Email" required /><br />
+
+        <label style="padding-right: 340px">Roll No:</label><br />
+        <input
+          type="text"
+          placeholder="Enter your Roll Number"
+          required
+        /><br />
+
+        <label style="padding-right: 282px">Phone Number:</label><br />
+        <input type="number" placeholder="Enter your Number" required /><br />
+
+        <label style="padding-right: 350px">Department:</label><br />
+        <input type="text" placeholder="Enter your Department" required /><br />
+
+        <label style="padding-right: 310px">Issue Type:</label><br /><br>
+        <select class="Select" name="issue-type" id="Issues">
+          <option value="Ragging">Ragging</option>
+          <option value="Staff Issues">Staff Issue</option>
+          <option value="Hostel Issues">Hostel Issue</option>
+          <option value="Facilities Issue">Facilities Issue</option></select
+        ><br /><br />
+
+        <label style="padding-right: 300px">Description:</label><br />
+        <textarea placeholder="Issue Description" required></textarea><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
